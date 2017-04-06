@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kjirou/js-unit-test-on-rails#readme",
   "private": true,
   "devDependencies": {
+    "chai": "^3.5.0",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "karma": "^1.6.0",
