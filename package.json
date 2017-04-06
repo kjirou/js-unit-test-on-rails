@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "assets:clean": "bundle exec rake assets:clobber",
+    "assets:prepare": "bundle exec rake assets:precompile && $(npm bin)/gulp copy-application-js-without-digest",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
