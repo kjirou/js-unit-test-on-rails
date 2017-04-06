@@ -1,0 +1,23 @@
+{
+  "name": "js-unit-test-on-rails",
+  "version": "1.0.0",
+  "description": "Sprockets で生成された application.js に対してユニットテストを実行する構成例",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjirou/js-unit-test-on-rails.git"
+  },
+  "author": "kjirou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjirou/js-unit-test-on-rails/issues"
+  },
+  "homepage": "https://github.com/kjirou/js-unit-test-on-rails#readme",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2"
+  }
+}
