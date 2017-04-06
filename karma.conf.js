@@ -4,6 +4,8 @@ module.exports = function(config) {
     browsers: ['PhantomJS'],
     files: [
       'client/spec/built/application.js',
+      'node_modules/chai/chai.js',
+      'client/spec/**/*.spec.js',
     ],
   });
 };
