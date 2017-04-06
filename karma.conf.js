@@ -7,5 +7,6 @@ module.exports = function(config) {
       'node_modules/chai/chai.js',
       'client/spec/**/*.spec.js',
     ],
+    reporters: ['mocha'],
   });
 };
