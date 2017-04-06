@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Sprockets で生成された application.js に対してユニットテストを実行する構成例",
   "scripts": {
+    "assets:clean": "bundle exec rake assets:clobber",
+    "assets:prepare": "bundle exec rake assets:precompile && $(npm bin)/gulp copy-application-js-without-digest",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
