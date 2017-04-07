@@ -1,0 +1,19 @@
+{
+  "name": "js-unit-test-on-rails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjirou/js-unit-test-on-rails.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjirou/js-unit-test-on-rails/issues"
+  },
+  "homepage": "https://github.com/kjirou/js-unit-test-on-rails#readme"
+}
