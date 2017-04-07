@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/kjirou/js-unit-test-on-rails/issues"
   },
-  "homepage": "https://github.com/kjirou/js-unit-test-on-rails#readme"
+  "homepage": "https://github.com/kjirou/js-unit-test-on-rails#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2"
+  }
 }
